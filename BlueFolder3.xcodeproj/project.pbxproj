@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		267006BE1621498600DA5BE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006BD1621498600DA5BE5 /* UIKit.framework */; };
+		267006C01621498600DA5BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006BF1621498600DA5BE5 /* Foundation.framework */; };
+		267006C21621498600DA5BE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006C11621498600DA5BE5 /* CoreGraphics.framework */; };
+		267006C81621498600DA5BE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267006C61621498600DA5BE5 /* InfoPlist.strings */; };
+		267006CA1621498600DA5BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006C91621498600DA5BE5 /* main.m */; };
+		267006CE1621498600DA5BE5 /* BlueFolderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */; };
+		267006D01621498600DA5BE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006CF1621498600DA5BE5 /* Default.png */; };
+		267006D21621498600DA5BE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006D11621498600DA5BE5 /* Default@2x.png */; };
+		267006D41621498600DA5BE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006D31621498600DA5BE5 /* Default-568h@2x.png */; };
+		267006D71621498600DA5BE5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267006D51621498600DA5BE5 /* MainStoryboard.storyboard */; };
+		267006DA1621498600DA5BE5 /* BlueFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006D91621498600DA5BE5 /* BlueFolderViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		267006B91621498600DA5BE5 /* BlueFolder3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueFolder3.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		267006BD1621498600DA5BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		267006BF1621498600DA5BE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		267006C11621498600DA5BE5 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		267006C51621498600DA5BE5 /* BlueFolder3-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlueFolder3-Info.plist"; sourceTree = "<group>"; };
+		267006C71621498600DA5BE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		267006C91621498600DA5BE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		267006CB1621498600DA5BE5 /* BlueFolder3-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlueFolder3-Prefix.pch"; sourceTree = "<group>"; };
+		267006CC1621498600DA5BE5 /* BlueFolderAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueFolderAppDelegate.h; sourceTree = "<group>"; };
+		267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueFolderAppDelegate.m; sourceTree = "<group>"; };
+		267006CF1621498600DA5BE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		267006D11621498600DA5BE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		267006D31621498600DA5BE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		267006D61621498600DA5BE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		267006D81621498600DA5BE5 /* BlueFolderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueFolderViewController.h; sourceTree = "<group>"; };
+		267006D91621498600DA5BE5 /* BlueFolderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueFolderViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		267006B61621498600DA5BE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267006BE1621498600DA5BE5 /* UIKit.framework in Frameworks */,
+				267006C01621498600DA5BE5 /* Foundation.framework in Frameworks */,
+				267006C21621498600DA5BE5 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		267006AE1621498600DA5BE5 = {
+			isa = PBXGroup;
+			children = (
+				267006C31621498600DA5BE5 /* BlueFolder3 */,
+				267006BC1621498600DA5BE5 /* Frameworks */,
+				267006BA1621498600DA5BE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		267006BA1621498600DA5BE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				267006B91621498600DA5BE5 /* BlueFolder3.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		267006BC1621498600DA5BE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				267006BD1621498600DA5BE5 /* UIKit.framework */,
+				267006BF1621498600DA5BE5 /* Foundation.framework */,
+				267006C11621498600DA5BE5 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		267006C31621498600DA5BE5 /* BlueFolder3 */ = {
+			isa = PBXGroup;
+			children = (
+				267006CC1621498600DA5BE5 /* BlueFolderAppDelegate.h */,
+				267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */,
+				267006D51621498600DA5BE5 /* MainStoryboard.storyboard */,
+				267006D81621498600DA5BE5 /* BlueFolderViewController.h */,
+				267006D91621498600DA5BE5 /* BlueFolderViewController.m */,
+				267006C41621498600DA5BE5 /* Supporting Files */,
+			);
+			path = BlueFolder3;
+			sourceTree = "<group>";
+		};
+		267006C41621498600DA5BE5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				267006C51621498600DA5BE5 /* BlueFolder3-Info.plist */,
+				267006C61621498600DA5BE5 /* InfoPlist.strings */,
+				267006C91621498600DA5BE5 /* main.m */,
+				267006CB1621498600DA5BE5 /* BlueFolder3-Prefix.pch */,
+				267006CF1621498600DA5BE5 /* Default.png */,
+				267006D11621498600DA5BE5 /* Default@2x.png */,
+				267006D31621498600DA5BE5 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		267006B81621498600DA5BE5 /* BlueFolder3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 267006DD1621498600DA5BE5 /* Build configuration list for PBXNativeTarget "BlueFolder3" */;
+			buildPhases = (
+				267006B51621498600DA5BE5 /* Sources */,
+				267006B61621498600DA5BE5 /* Frameworks */,
+				267006B71621498600DA5BE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlueFolder3;
+			productName = BlueFolder3;
+			productReference = 267006B91621498600DA5BE5 /* BlueFolder3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		267006B01621498600DA5BE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BlueFolder;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = tina;
+			};
+			buildConfigurationList = 267006B31621498600DA5BE5 /* Build configuration list for PBXProject "BlueFolder3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 267006AE1621498600DA5BE5;
+			productRefGroup = 267006BA1621498600DA5BE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				267006B81621498600DA5BE5 /* BlueFolder3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		267006B71621498600DA5BE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267006C81621498600DA5BE5 /* InfoPlist.strings in Resources */,
+				267006D01621498600DA5BE5 /* Default.png in Resources */,
+				267006D21621498600DA5BE5 /* Default@2x.png in Resources */,
+				267006D41621498600DA5BE5 /* Default-568h@2x.png in Resources */,
+				267006D71621498600DA5BE5 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		267006B51621498600DA5BE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				267006CA1621498600DA5BE5 /* main.m in Sources */,
+				267006CE1621498600DA5BE5 /* BlueFolderAppDelegate.m in Sources */,
+				267006DA1621498600DA5BE5 /* BlueFolderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		267006C61621498600DA5BE5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267006C71621498600DA5BE5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		267006D51621498600DA5BE5 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				267006D61621498600DA5BE5 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		267006DB1621498600DA5BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		267006DC1621498600DA5BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		267006DE1621498600DA5BE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueFolder3/BlueFolder3-Prefix.pch";
+				INFOPLIST_FILE = "BlueFolder3/BlueFolder3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		267006DF1621498600DA5BE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlueFolder3/BlueFolder3-Prefix.pch";
+				INFOPLIST_FILE = "BlueFolder3/BlueFolder3-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		267006B31621498600DA5BE5 /* Build configuration list for PBXProject "BlueFolder3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267006DB1621498600DA5BE5 /* Debug */,
+				267006DC1621498600DA5BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		267006DD1621498600DA5BE5 /* Build configuration list for PBXNativeTarget "BlueFolder3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				267006DE1621498600DA5BE5 /* Debug */,
+				267006DF1621498600DA5BE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 267006B01621498600DA5BE5 /* Project object */;
+}
