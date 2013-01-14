@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
+@class BlueFolderIntervieweeTableViewController;
 @interface BlueFolderAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (readwrite, retain) BlueFolderIntervieweeTableViewController *viewController;
 
 @end

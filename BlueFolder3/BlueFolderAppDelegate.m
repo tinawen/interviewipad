@@ -7,17 +7,24 @@
 //
 
 #import "BlueFolderAppDelegate.h"
+#import "BlueFolderIntervieweeTableViewController.h"
 
 @implementation BlueFolderAppDelegate
 
+@synthesize viewController;
+
 - (void)dealloc
 {
+    [viewController release];
     [_window release];
     [super dealloc];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    BlueFolderIntervieweeTableViewController *intervieweeViewController = [[[BlueFolderIntervieweeTableViewController alloc] init] autorelease];
+    [self setViewController:intervieweeViewController];
+    [self.window addSubview:[intervieweeViewController view]];
     // Override point for customization after application launch.
     return YES;
 }

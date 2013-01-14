@@ -7,20 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2613BB1C1623F13300B1BDBE /* BlueFolderUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2613BB1B1623F13300B1BDBE /* BlueFolderUtils.m */; };
+		263F7F25169FFC8F006FD5DC /* BlueFolderFeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8F4B41622B18300F5E6BD /* BlueFolderFeedbackViewController.m */; };
+		263F7F2F16A35A50006FD5DC /* BlueFolderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 263F7F2E16A35A50006FD5DC /* BlueFolderRequest.m */; };
+		263F7F3D16A3D569006FD5DC /* BlueFolderInterviewingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263F7F3C16A3D567006FD5DC /* BlueFolderInterviewingViewController.xib */; };
+		263F7F3F16A3D576006FD5DC /* BlueFolderInterviewingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 263F7F3E16A3D575006FD5DC /* BlueFolderInterviewingViewController.m */; };
+		263F7F4116A3D57F006FD5DC /* BlueFolderIntervieweeCardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 263F7F4016A3D57E006FD5DC /* BlueFolderIntervieweeCardViewController.xib */; };
+		26654B7E169F74110006C639 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 26654B7C169F74110006C639 /* MainStoryboard.storyboard */; };
+		26654B83169FACD00006C639 /* icon-email.png in Resources */ = {isa = PBXBuildFile; fileRef = 26654B82169FACD00006C639 /* icon-email.png */; };
+		26654B88169FAEF70006C639 /* icon-checkmark.png in Resources */ = {isa = PBXBuildFile; fileRef = 26654B86169FAEF40006C639 /* icon-checkmark.png */; };
+		26654B89169FAEF70006C639 /* icon-submitbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 26654B87169FAEF50006C639 /* icon-submitbutton.png */; };
 		267006BE1621498600DA5BE5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006BD1621498600DA5BE5 /* UIKit.framework */; };
 		267006C01621498600DA5BE5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006BF1621498600DA5BE5 /* Foundation.framework */; };
 		267006C21621498600DA5BE5 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006C11621498600DA5BE5 /* CoreGraphics.framework */; };
 		267006C81621498600DA5BE5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 267006C61621498600DA5BE5 /* InfoPlist.strings */; };
 		267006CA1621498600DA5BE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006C91621498600DA5BE5 /* main.m */; };
-		267006CE1621498600DA5BE5 /* BlueFolderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */; };
 		267006D01621498600DA5BE5 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006CF1621498600DA5BE5 /* Default.png */; };
 		267006D21621498600DA5BE5 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006D11621498600DA5BE5 /* Default@2x.png */; };
 		267006D41621498600DA5BE5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006D31621498600DA5BE5 /* Default-568h@2x.png */; };
-		267006D71621498600DA5BE5 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 267006D51621498600DA5BE5 /* MainStoryboard.storyboard */; };
-		267006DA1621498600DA5BE5 /* BlueFolderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006D91621498600DA5BE5 /* BlueFolderViewController.m */; };
+		267006F41621540A00DA5BE5 /* blackArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006EC1621540A00DA5BE5 /* blackArrow.png */; };
+		267006F51621540A00DA5BE5 /* blackArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006ED1621540A00DA5BE5 /* blackArrow@2x.png */; };
+		267006F61621540A00DA5BE5 /* blueArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006EE1621540A00DA5BE5 /* blueArrow.png */; };
+		267006F71621540A00DA5BE5 /* blueArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006EF1621540A00DA5BE5 /* blueArrow@2x.png */; };
+		267006F81621540A00DA5BE5 /* grayArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006F01621540A00DA5BE5 /* grayArrow.png */; };
+		267006F91621540A00DA5BE5 /* grayArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006F11621540A00DA5BE5 /* grayArrow@2x.png */; };
+		267006FA1621540A00DA5BE5 /* whiteArrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006F21621540A00DA5BE5 /* whiteArrow.png */; };
+		267006FB1621540A00DA5BE5 /* whiteArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267006F31621540A00DA5BE5 /* whiteArrow@2x.png */; };
+		267006FC1621569900DA5BE5 /* BlueFolderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */; };
+		267006FE1621573300DA5BE5 /* EGORefreshTableHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267006E9162153BC00DA5BE5 /* EGORefreshTableHeaderView.m */; };
+		267007001621580700DA5BE5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 267006FF1621580700DA5BE5 /* QuartzCore.framework */; };
+		267F25D9169BA18C001E25BD /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D1169BA18B001E25BD /* Icon-72.png */; };
+		267F25DA169BA18C001E25BD /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D2169BA18C001E25BD /* Icon-72@2x.png */; };
+		267F25DB169BA18C001E25BD /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D3169BA18C001E25BD /* Icon-Small-50.png */; };
+		267F25DC169BA18C001E25BD /* Icon-Small-50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D4169BA18C001E25BD /* Icon-Small-50@2x.png */; };
+		267F25DD169BA18C001E25BD /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D5169BA18C001E25BD /* Icon-Small.png */; };
+		267F25DE169BA18C001E25BD /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D6169BA18C001E25BD /* Icon-Small@2x.png */; };
+		267F25DF169BA18C001E25BD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D7169BA18C001E25BD /* Icon.png */; };
+		267F25E0169BA18C001E25BD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25D8169BA18C001E25BD /* Icon@2x.png */; };
+		267F25ED169D4BDA001E25BD /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 267F25EC169D4BDA001E25BD /* placeholder.png */; };
+		267F25F0169D6DAE001E25BD /* BlueFolderIntervieweeCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 267F25EF169D6DAE001E25BD /* BlueFolderIntervieweeCardView.m */; };
+		2698B56A16239F750081DE35 /* notchecked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2698B56916239F750081DE35 /* notchecked.png */; };
+		2698B56D16239F7B0081DE35 /* checked.png in Resources */ = {isa = PBXBuildFile; fileRef = 2698B56C16239F7B0081DE35 /* checked.png */; };
+		2698B5791623AC550081DE35 /* buttonBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 2698B5781623AC550081DE35 /* buttonBackground.png */; };
+		2698B57B1623ADA20081DE35 /* call.png in Resources */ = {isa = PBXBuildFile; fileRef = 2698B57A1623ADA20081DE35 /* call.png */; };
+		26A8F4861622636600F5E6BD /* BlueFolderIntervieweeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8F4851622636600F5E6BD /* BlueFolderIntervieweeTableViewController.m */; };
+		26A8F48D1622832C00F5E6BD /* BlueFolderInterviewerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26A8F48B162280D700F5E6BD /* BlueFolderInterviewerTableViewController.m */; };
+		26A8F49D1622A4B500F5E6BD /* Nothing.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A8F49A1622A4B500F5E6BD /* Nothing.png */; };
+		26A8F4B01622AD8C00F5E6BD /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A8F4AF1622AD8C00F5E6BD /* logo.png */; };
+		26A8F4B21622AD9F00F5E6BD /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 26A8F4B11622AD9F00F5E6BD /* background.png */; };
+		26A8F4B71622B18300F5E6BD /* BlueFolderFeedbackViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26A8F4B51622B18300F5E6BD /* BlueFolderFeedbackViewController.xib */; };
+		26D066B6169E634200A9B21C /* BlueFolderInterviewerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D066B5169E634200A9B21C /* BlueFolderInterviewerTableViewCell.xib */; };
+		26D066B9169E694800A9B21C /* BlueFolderInterviewerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D066B8169E694800A9B21C /* BlueFolderInterviewerTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2613BB1A1623F13300B1BDBE /* BlueFolderUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderUtils.h; sourceTree = "<group>"; };
+		2613BB1B1623F13300B1BDBE /* BlueFolderUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderUtils.m; sourceTree = "<group>"; };
+		263F7F2D16A35A50006FD5DC /* BlueFolderRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderRequest.h; sourceTree = "<group>"; };
+		263F7F2E16A35A50006FD5DC /* BlueFolderRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderRequest.m; sourceTree = "<group>"; };
+		263F7F3B16A3D529006FD5DC /* BlueFolderInterviewingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderInterviewingViewController.h; sourceTree = "<group>"; };
+		263F7F3C16A3D567006FD5DC /* BlueFolderInterviewingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueFolderInterviewingViewController.xib; sourceTree = "<group>"; };
+		263F7F3E16A3D575006FD5DC /* BlueFolderInterviewingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderInterviewingViewController.m; sourceTree = "<group>"; };
+		263F7F4016A3D57E006FD5DC /* BlueFolderIntervieweeCardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueFolderIntervieweeCardViewController.xib; sourceTree = "<group>"; };
+		26654B7D169F74110006C639 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = BlueFolder3/en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		26654B82169FACD00006C639 /* icon-email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-email.png"; sourceTree = "<group>"; };
+		26654B86169FAEF40006C639 /* icon-checkmark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-checkmark.png"; sourceTree = "<group>"; };
+		26654B87169FAEF50006C639 /* icon-submitbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-submitbutton.png"; sourceTree = "<group>"; };
 		267006B91621498600DA5BE5 /* BlueFolder3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueFolder3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		267006BD1621498600DA5BE5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		267006BF1621498600DA5BE5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +86,45 @@
 		267006CF1621498600DA5BE5 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		267006D11621498600DA5BE5 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		267006D31621498600DA5BE5 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		267006D61621498600DA5BE5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		267006D81621498600DA5BE5 /* BlueFolderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueFolderViewController.h; sourceTree = "<group>"; };
-		267006D91621498600DA5BE5 /* BlueFolderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueFolderViewController.m; sourceTree = "<group>"; };
+		267006E8162153BC00DA5BE5 /* EGORefreshTableHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EGORefreshTableHeaderView.h; sourceTree = "<group>"; };
+		267006E9162153BC00DA5BE5 /* EGORefreshTableHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EGORefreshTableHeaderView.m; sourceTree = "<group>"; };
+		267006EC1621540A00DA5BE5 /* blackArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackArrow.png; sourceTree = "<group>"; };
+		267006ED1621540A00DA5BE5 /* blackArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackArrow@2x.png"; sourceTree = "<group>"; };
+		267006EE1621540A00DA5BE5 /* blueArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueArrow.png; sourceTree = "<group>"; };
+		267006EF1621540A00DA5BE5 /* blueArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueArrow@2x.png"; sourceTree = "<group>"; };
+		267006F01621540A00DA5BE5 /* grayArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grayArrow.png; sourceTree = "<group>"; };
+		267006F11621540A00DA5BE5 /* grayArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grayArrow@2x.png"; sourceTree = "<group>"; };
+		267006F21621540A00DA5BE5 /* whiteArrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteArrow.png; sourceTree = "<group>"; };
+		267006F31621540A00DA5BE5 /* whiteArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteArrow@2x.png"; sourceTree = "<group>"; };
+		267006FF1621580700DA5BE5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		267F25D1169BA18B001E25BD /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
+		267F25D2169BA18C001E25BD /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = "<group>"; };
+		267F25D3169BA18C001E25BD /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
+		267F25D4169BA18C001E25BD /* Icon-Small-50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50@2x.png"; sourceTree = "<group>"; };
+		267F25D5169BA18C001E25BD /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		267F25D6169BA18C001E25BD /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		267F25D7169BA18C001E25BD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		267F25D8169BA18C001E25BD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		267F25EC169D4BDA001E25BD /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		267F25EE169D6DAE001E25BD /* BlueFolderIntervieweeCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderIntervieweeCardView.h; sourceTree = "<group>"; };
+		267F25EF169D6DAE001E25BD /* BlueFolderIntervieweeCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderIntervieweeCardView.m; sourceTree = "<group>"; };
+		2698B56916239F750081DE35 /* notchecked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = notchecked.png; sourceTree = "<group>"; };
+		2698B56C16239F7B0081DE35 /* checked.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = checked.png; sourceTree = "<group>"; };
+		2698B5781623AC550081DE35 /* buttonBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonBackground.png; sourceTree = "<group>"; };
+		2698B57A1623ADA20081DE35 /* call.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = call.png; sourceTree = "<group>"; };
+		26A8F4841622636600F5E6BD /* BlueFolderIntervieweeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderIntervieweeTableViewController.h; sourceTree = "<group>"; };
+		26A8F4851622636600F5E6BD /* BlueFolderIntervieweeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderIntervieweeTableViewController.m; sourceTree = "<group>"; };
+		26A8F48B162280D700F5E6BD /* BlueFolderInterviewerTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueFolderInterviewerTableViewController.m; sourceTree = "<group>"; };
+		26A8F48C162280D700F5E6BD /* BlueFolderInterviewerTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlueFolderInterviewerTableViewController.h; sourceTree = "<group>"; };
+		26A8F49A1622A4B500F5E6BD /* Nothing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Nothing.png; sourceTree = "<group>"; };
+		26A8F4AF1622AD8C00F5E6BD /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		26A8F4B11622AD9F00F5E6BD /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		26A8F4B31622B18300F5E6BD /* BlueFolderFeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderFeedbackViewController.h; sourceTree = "<group>"; };
+		26A8F4B41622B18300F5E6BD /* BlueFolderFeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderFeedbackViewController.m; sourceTree = "<group>"; };
+		26A8F4B51622B18300F5E6BD /* BlueFolderFeedbackViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueFolderFeedbackViewController.xib; sourceTree = "<group>"; };
+		26D066B5169E634200A9B21C /* BlueFolderInterviewerTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BlueFolderInterviewerTableViewCell.xib; sourceTree = "<group>"; };
+		26D066B7169E694700A9B21C /* BlueFolderInterviewerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlueFolderInterviewerTableViewCell.h; sourceTree = "<group>"; };
+		26D066B8169E694800A9B21C /* BlueFolderInterviewerTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlueFolderInterviewerTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +132,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				267007001621580700DA5BE5 /* QuartzCore.framework in Frameworks */,
 				267006BE1621498600DA5BE5 /* UIKit.framework in Frameworks */,
 				267006C01621498600DA5BE5 /* Foundation.framework in Frameworks */,
 				267006C21621498600DA5BE5 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +162,7 @@
 		267006BC1621498600DA5BE5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				267006FF1621580700DA5BE5 /* QuartzCore.framework */,
 				267006BD1621498600DA5BE5 /* UIKit.framework */,
 				267006BF1621498600DA5BE5 /* Foundation.framework */,
 				267006C11621498600DA5BE5 /* CoreGraphics.framework */,
@@ -83,11 +173,7 @@
 		267006C31621498600DA5BE5 /* BlueFolder3 */ = {
 			isa = PBXGroup;
 			children = (
-				267006CC1621498600DA5BE5 /* BlueFolderAppDelegate.h */,
-				267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */,
-				267006D51621498600DA5BE5 /* MainStoryboard.storyboard */,
-				267006D81621498600DA5BE5 /* BlueFolderViewController.h */,
-				267006D91621498600DA5BE5 /* BlueFolderViewController.m */,
+				267006EB162153E700DA5BE5 /* Classes */,
 				267006C41621498600DA5BE5 /* Supporting Files */,
 			);
 			path = BlueFolder3;
@@ -97,14 +183,73 @@
 			isa = PBXGroup;
 			children = (
 				267006C51621498600DA5BE5 /* BlueFolder3-Info.plist */,
+				26A8F49A1622A4B500F5E6BD /* Nothing.png */,
 				267006C61621498600DA5BE5 /* InfoPlist.strings */,
-				267006C91621498600DA5BE5 /* main.m */,
+				267006EC1621540A00DA5BE5 /* blackArrow.png */,
+				267006ED1621540A00DA5BE5 /* blackArrow@2x.png */,
+				267006EE1621540A00DA5BE5 /* blueArrow.png */,
+				2698B5781623AC550081DE35 /* buttonBackground.png */,
+				26A8F4B11622AD9F00F5E6BD /* background.png */,
+				267006EF1621540A00DA5BE5 /* blueArrow@2x.png */,
+				26A8F4AF1622AD8C00F5E6BD /* logo.png */,
+				267006F01621540A00DA5BE5 /* grayArrow.png */,
+				2698B56916239F750081DE35 /* notchecked.png */,
+				267006F11621540A00DA5BE5 /* grayArrow@2x.png */,
+				2698B56C16239F7B0081DE35 /* checked.png */,
+				2698B57A1623ADA20081DE35 /* call.png */,
+				267006F21621540A00DA5BE5 /* whiteArrow.png */,
+				267006F31621540A00DA5BE5 /* whiteArrow@2x.png */,
 				267006CB1621498600DA5BE5 /* BlueFolder3-Prefix.pch */,
 				267006CF1621498600DA5BE5 /* Default.png */,
 				267006D11621498600DA5BE5 /* Default@2x.png */,
 				267006D31621498600DA5BE5 /* Default-568h@2x.png */,
+				267F25D1169BA18B001E25BD /* Icon-72.png */,
+				267F25D2169BA18C001E25BD /* Icon-72@2x.png */,
+				267F25D3169BA18C001E25BD /* Icon-Small-50.png */,
+				267F25D4169BA18C001E25BD /* Icon-Small-50@2x.png */,
+				267F25D5169BA18C001E25BD /* Icon-Small.png */,
+				267F25D6169BA18C001E25BD /* Icon-Small@2x.png */,
+				267F25D7169BA18C001E25BD /* Icon.png */,
+				267F25D8169BA18C001E25BD /* Icon@2x.png */,
+				267F25EC169D4BDA001E25BD /* placeholder.png */,
+				26654B86169FAEF40006C639 /* icon-checkmark.png */,
+				26654B87169FAEF50006C639 /* icon-submitbutton.png */,
+				26654B82169FACD00006C639 /* icon-email.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		267006EB162153E700DA5BE5 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				26654B7C169F74110006C639 /* MainStoryboard.storyboard */,
+				267006CC1621498600DA5BE5 /* BlueFolderAppDelegate.h */,
+				267006CD1621498600DA5BE5 /* BlueFolderAppDelegate.m */,
+				26A8F4841622636600F5E6BD /* BlueFolderIntervieweeTableViewController.h */,
+				26A8F4851622636600F5E6BD /* BlueFolderIntervieweeTableViewController.m */,
+				26A8F48C162280D700F5E6BD /* BlueFolderInterviewerTableViewController.h */,
+				26A8F48B162280D700F5E6BD /* BlueFolderInterviewerTableViewController.m */,
+				26A8F4B31622B18300F5E6BD /* BlueFolderFeedbackViewController.h */,
+				26A8F4B41622B18300F5E6BD /* BlueFolderFeedbackViewController.m */,
+				26A8F4B51622B18300F5E6BD /* BlueFolderFeedbackViewController.xib */,
+				2613BB1A1623F13300B1BDBE /* BlueFolderUtils.h */,
+				2613BB1B1623F13300B1BDBE /* BlueFolderUtils.m */,
+				263F7F2D16A35A50006FD5DC /* BlueFolderRequest.h */,
+				263F7F2E16A35A50006FD5DC /* BlueFolderRequest.m */,
+				263F7F3B16A3D529006FD5DC /* BlueFolderInterviewingViewController.h */,
+				263F7F3E16A3D575006FD5DC /* BlueFolderInterviewingViewController.m */,
+				263F7F3C16A3D567006FD5DC /* BlueFolderInterviewingViewController.xib */,
+				267F25EE169D6DAE001E25BD /* BlueFolderIntervieweeCardView.h */,
+				267F25EF169D6DAE001E25BD /* BlueFolderIntervieweeCardView.m */,
+				263F7F4016A3D57E006FD5DC /* BlueFolderIntervieweeCardViewController.xib */,
+				26D066B7169E694700A9B21C /* BlueFolderInterviewerTableViewCell.h */,
+				26D066B8169E694800A9B21C /* BlueFolderInterviewerTableViewCell.m */,
+				26D066B5169E634200A9B21C /* BlueFolderInterviewerTableViewCell.xib */,
+				267006E8162153BC00DA5BE5 /* EGORefreshTableHeaderView.h */,
+				267006E9162153BC00DA5BE5 /* EGORefreshTableHeaderView.m */,
+				267006C91621498600DA5BE5 /* main.m */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,7 +308,38 @@
 				267006D01621498600DA5BE5 /* Default.png in Resources */,
 				267006D21621498600DA5BE5 /* Default@2x.png in Resources */,
 				267006D41621498600DA5BE5 /* Default-568h@2x.png in Resources */,
-				267006D71621498600DA5BE5 /* MainStoryboard.storyboard in Resources */,
+				267006F41621540A00DA5BE5 /* blackArrow.png in Resources */,
+				267006F51621540A00DA5BE5 /* blackArrow@2x.png in Resources */,
+				267006F61621540A00DA5BE5 /* blueArrow.png in Resources */,
+				267006F71621540A00DA5BE5 /* blueArrow@2x.png in Resources */,
+				267006F81621540A00DA5BE5 /* grayArrow.png in Resources */,
+				267006F91621540A00DA5BE5 /* grayArrow@2x.png in Resources */,
+				267006FA1621540A00DA5BE5 /* whiteArrow.png in Resources */,
+				267006FB1621540A00DA5BE5 /* whiteArrow@2x.png in Resources */,
+				26A8F49D1622A4B500F5E6BD /* Nothing.png in Resources */,
+				26A8F4B01622AD8C00F5E6BD /* logo.png in Resources */,
+				26A8F4B21622AD9F00F5E6BD /* background.png in Resources */,
+				26A8F4B71622B18300F5E6BD /* BlueFolderFeedbackViewController.xib in Resources */,
+				2698B56A16239F750081DE35 /* notchecked.png in Resources */,
+				2698B56D16239F7B0081DE35 /* checked.png in Resources */,
+				2698B5791623AC550081DE35 /* buttonBackground.png in Resources */,
+				2698B57B1623ADA20081DE35 /* call.png in Resources */,
+				267F25D9169BA18C001E25BD /* Icon-72.png in Resources */,
+				267F25DA169BA18C001E25BD /* Icon-72@2x.png in Resources */,
+				267F25DB169BA18C001E25BD /* Icon-Small-50.png in Resources */,
+				267F25DC169BA18C001E25BD /* Icon-Small-50@2x.png in Resources */,
+				267F25DD169BA18C001E25BD /* Icon-Small.png in Resources */,
+				267F25DE169BA18C001E25BD /* Icon-Small@2x.png in Resources */,
+				267F25DF169BA18C001E25BD /* Icon.png in Resources */,
+				267F25E0169BA18C001E25BD /* Icon@2x.png in Resources */,
+				267F25ED169D4BDA001E25BD /* placeholder.png in Resources */,
+				26D066B6169E634200A9B21C /* BlueFolderInterviewerTableViewCell.xib in Resources */,
+				26654B7E169F74110006C639 /* MainStoryboard.storyboard in Resources */,
+				26654B83169FACD00006C639 /* icon-email.png in Resources */,
+				26654B88169FAEF70006C639 /* icon-checkmark.png in Resources */,
+				26654B89169FAEF70006C639 /* icon-submitbutton.png in Resources */,
+				263F7F3D16A3D569006FD5DC /* BlueFolderInterviewingViewController.xib in Resources */,
+				263F7F4116A3D57F006FD5DC /* BlueFolderIntervieweeCardViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,28 +351,37 @@
 			buildActionMask = 2147483647;
 			files = (
 				267006CA1621498600DA5BE5 /* main.m in Sources */,
-				267006CE1621498600DA5BE5 /* BlueFolderAppDelegate.m in Sources */,
-				267006DA1621498600DA5BE5 /* BlueFolderViewController.m in Sources */,
+				267006FC1621569900DA5BE5 /* BlueFolderAppDelegate.m in Sources */,
+				267006FE1621573300DA5BE5 /* EGORefreshTableHeaderView.m in Sources */,
+				26A8F4861622636600F5E6BD /* BlueFolderIntervieweeTableViewController.m in Sources */,
+				26A8F48D1622832C00F5E6BD /* BlueFolderInterviewerTableViewController.m in Sources */,
+				2613BB1C1623F13300B1BDBE /* BlueFolderUtils.m in Sources */,
+				267F25F0169D6DAE001E25BD /* BlueFolderIntervieweeCardView.m in Sources */,
+				26D066B9169E694800A9B21C /* BlueFolderInterviewerTableViewCell.m in Sources */,
+				263F7F25169FFC8F006FD5DC /* BlueFolderFeedbackViewController.m in Sources */,
+				263F7F2F16A35A50006FD5DC /* BlueFolderRequest.m in Sources */,
+				263F7F3F16A3D576006FD5DC /* BlueFolderInterviewingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		26654B7C169F74110006C639 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				26654B7D169F74110006C639 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		267006C61621498600DA5BE5 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				267006C71621498600DA5BE5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		267006D51621498600DA5BE5 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				267006D61621498600DA5BE5 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -210,6 +395,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tina Wen (GVS28G3Y35)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -237,6 +423,7 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tina Wen (GVS28G3Y35)";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -254,6 +441,8 @@
 		267006DE1621498600DA5BE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tina Wen (GVS28G3Y35)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tina Wen (GVS28G3Y35)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueFolder3/BlueFolder3-Prefix.pch";
 				INFOPLIST_FILE = "BlueFolder3/BlueFolder3-Info.plist";
@@ -265,6 +454,8 @@
 		267006DF1621498600DA5BE5 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Tina Wen (GVS28G3Y35)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Tina Wen (GVS28G3Y35)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BlueFolder3/BlueFolder3-Prefix.pch";
 				INFOPLIST_FILE = "BlueFolder3/BlueFolder3-Info.plist";
@@ -292,6 +483,7 @@
 				267006DF1621498600DA5BE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
